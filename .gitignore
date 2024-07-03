@@ -1,0 +1,10 @@
+venv/
+creds.txt
+shared/
+cache/** 
+!cache/.gitkeep
+__pycache__/
+few-shots/
+input/
+.env
+startup.sh

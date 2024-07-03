@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: testOCR
+    build:
+      context: .
+    privileged: true
+    ports:
+      - "$PORT:$PORT"
+    healthcheck:
+      test: ["CMD-SHELL", "test -s `which nvidia-smi` && nvidia-smi || exit 1"]
+      start_period: 1s
+      interval: 20s
+      timeout: 5s
+      retries: 2
+    restart: always
+    volumes:
+      - ./cache/:/app/cache/
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: 1
+            capabilities: [gpu]
+
