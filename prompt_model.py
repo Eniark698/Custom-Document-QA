@@ -3,12 +3,10 @@ pwd = os.getcwd()
 os.environ['HF_HOME'] = os.path.join(pwd, 'cache')
 
 
-import time
 import gc
 import transformers
 transformers.logging.set_verbosity_error()
 import torch
-import json
 from json import JSONDecoder
 
 from convert_pdf_to_image import extract_text
@@ -77,7 +75,8 @@ model_id = "unsloth/llama-3-8b-Instruct-bnb-4bit"
 def extract_final_sum_and_period(text,pipeline):
  prompt = f"""
  ###Instruction
- Extract the final(total) sum, begining and end date of reporting period to json from the following text:
+ Extract the final(total) cost of services to be paid by the customer in favor of the executed, to the nearest hundredth (cents of UAH, on ukrainian its 'копійка' or 'коп.', try not to skip any digit of given number), 
+ begining and end date of reporting period to json from the following text:
 
  
  ###Data
@@ -113,7 +112,10 @@ def extract_code_and_name(text,pipeline):
 
  prompt = f"""
  ###Instruction
- Extract the suppier full name (with general name) and individual tax number of the VAT payer(always has 12 digits, sometimes can be called 'ІПН' on ukrainian) to json from the following text:
+ Extract the suppier full name (with general name, for example 'Фізична особа підприємець' чи 'Товариство з обмеженою відповідальністю') 
+ and individual tax number of the VAT payer(always has 10 or 12 digits, 
+ sometimes can be called 'ІПН' on ukrainian, if you can not find this 'tax code', try to find nearest 10 or 12 digit number) 
+ to json from the following text:
 
  
  ###Data
@@ -129,8 +131,8 @@ def extract_code_and_name(text,pipeline):
  ###Example
  Json:
  {{
-    "tax_number":"123456789101",
-    "full_name":"Фізична особа підприємець Мозоль Назарій Юрійович"
+    "tax_number":"1234567890",
+    "full_name":"ФІЗИЧНА ОСОБА-ПІДПРИЄМЕЦЬ Мозоль Назарій Юрійович"
  }}
 
 
@@ -138,7 +140,7 @@ def extract_code_and_name(text,pipeline):
 
  ###Answer
  Json:"""
- output = pipeline(prompt, max_new_tokens=50)
+ output = pipeline(prompt, max_new_tokens=100)
  
  # Extract the sum from the generated text
  generated_text = output[0]["generated_text"]
@@ -168,14 +170,14 @@ def get_info(text1,text2):
     pipeline=reinit()
     a=extract_final_sum_and_period(text1,pipeline)
     b=extract_code_and_name(text2,pipeline)
-    # print(a)
-    # print(b)
+
+
     sum_and_period_json=extract_json_from_string(a)
     code_and_name_json=extract_json_from_string(b)
     
     d = dict(sum_and_period_json)
     d.update(code_and_name_json)
-    if len(d['tax_number'])!=12:
+    if len(d['tax_number']) not in [10,12]:
         d['tax_number']=None
     if type(d['final_sum'])=='str' or type(d['final_sum'])==str:
         d['final_sum']=d['final_sum'].replace('.',',')

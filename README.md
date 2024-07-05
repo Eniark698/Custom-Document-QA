@@ -1,5 +1,6 @@
 OS: Ubuntu 22.04 lts server
 CPU: i5-14500
+RAM: 32 gb
 GPU: RTX 4070 (12gb vram)
 Kernel: 5.15.0-113-generic
 Driver: 550.90.07 (from nvidia site)

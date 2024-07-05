@@ -8,3 +8,4 @@ few-shots/
 input/
 .env
 startup.sh
+exec.sh

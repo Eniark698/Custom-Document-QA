@@ -8,6 +8,9 @@ import re
 import uuid
 from dotenv import load_dotenv
 load_dotenv()
+import os
+pwd = os.getcwd()
+os.environ['HF_HOME'] = os.path.join(pwd, 'cache')
 
 
 from convert_pdf_to_image import extract_text
@@ -16,9 +19,6 @@ app = Flask(__name__)
 
 lock = threading.Lock()
 is_executing = False
-
-
-
 
 
 
@@ -80,6 +80,13 @@ def get_creation_date(file_path):
 
 
 
+
+
+
+
+
+
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
 
@@ -119,4 +126,3 @@ def upload_file():
 if __name__ == '__main__':
     from waitress import serve
     serve(app, host='0.0.0.0', port=os.environ['PORT'])
-#    app.run(debug=True, host="0.0.0.0")
