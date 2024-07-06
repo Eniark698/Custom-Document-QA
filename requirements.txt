@@ -2,7 +2,7 @@ accelerate==0.31.0
 annotated-types==0.7.0
 bitsandbytes==0.43.1
 blinker==1.8.2
-certifi==2024.6.2
+certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
 einops==0.8.0
