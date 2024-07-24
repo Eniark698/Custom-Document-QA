@@ -9,3 +9,6 @@ input/
 .env
 startup.sh
 exec.sh
+app.log
+list.pkl
+output.log
