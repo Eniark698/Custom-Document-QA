@@ -1,0 +1,1 @@
+sudo /bin/bash -c 'cd /home/administrator/projects/OCR-project && source /home/administrator/projects/OCR-project/venv/bin/activate && nohup /home/administrator/projects/OCR-project/venv/bin/python /home/administrator/projects/OCR-project/app.py > /home/administrator/projects/OCR-project/output.log 2>&1 &'

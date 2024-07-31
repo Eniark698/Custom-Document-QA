@@ -1,0 +1,13 @@
+[Unit]
+Description=PythonScan Service Running as Root
+After=network.target
+
+[Service]
+ExecStart=PLACEHOLDER/venv/bin/python app.py
+WorkingDirectory=PLACEHOLDER
+StandardOutput=file:PLACEHOLDER/logs/log.txt
+StandardError=file:PLACEHOLDER/logs/log_error.txt
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

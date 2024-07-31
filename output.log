@@ -1,6 +1,0 @@
-Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
-Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
-Detecting bboxes:   0%|          | 0/1 [00:00<?, ?it/s]Detecting bboxes: 100%|██████████| 1/1 [00:00<00:00,  1.59it/s]Detecting bboxes: 100%|██████████| 1/1 [00:00<00:00,  1.59it/s]
-Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]Recognizing Text: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
-Detecting bboxes:   0%|          | 0/1 [00:00<?, ?it/s]Detecting bboxes: 100%|██████████| 1/1 [00:00<00:00,  2.08it/s]Detecting bboxes: 100%|██████████| 1/1 [00:00<00:00,  2.08it/s]
-Recognizing Text:   0%|          | 0/1 [00:00<?, ?it/s]Recognizing Text: 100%|██████████| 1/1 [00:00<00:00,  1.26it/s]Recognizing Text: 100%|██████████| 1/1 [00:00<00:00,  1.26it/s]

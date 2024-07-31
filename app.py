@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import threading
+import time
 import os
 import logging
 from datetime import datetime, timedelta
@@ -21,7 +22,7 @@ app = Flask(__name__)
 lock = threading.Lock()
 is_executing = False
 
-logging.basicConfig(filename='app.log', filemode='w',  format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
+logging.basicConfig(filename='app.log', filemode='a',  format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S')
 global logger
 logger = logging.getLogger()
@@ -119,6 +120,7 @@ def check_duplicate_and_save(file):
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
+    start=time.time()
 
     files = request.files.getlist('file')
    
@@ -147,25 +149,23 @@ def upload_file():
         
 
 
-        creation_date=get_creation_date(file_path)
-
-
         d1={
         "file_name":file_name,
-        "creation_date":creation_date
+        "creation_date":get_creation_date(file_path)
         }
         d.update(d1)
 
 
 
         d_u=d.copy()
-        d_u.update({'Dublicate': not Saved})
+        d_u.update({'Dublicate': not Saved, 'senderIP':request.remote_addr, 'exec_time':f'{time.time()-start:.2f} seconds'})
         logger.info(d_u)
         return d
     except Exception as e:
         if Saved == True:
             os.remove(file_path)
         return jsonify({'error': str(e), 'text': format_exc()}), 500
+
 
 
 if __name__ == '__main__':

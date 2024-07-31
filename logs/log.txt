@@ -1,0 +1,182 @@
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Traceback (most recent call last):
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 166, in get_info
+    raise Exception
+Exception
+
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Traceback (most recent call last):
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 166, in get_info
+    raise Exception
+Exception
+
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+st):
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 163, in get_info
+    d = dict(extract_final_sum_and_period(text1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 83, in extract_final_sum_and_period
+    output = llm(
+             ^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1674, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1607, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1085, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (16844) exceed context window of 8192
+
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Traceback (most recent call last):
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 163, in get_info
+    d = dict(extract_final_sum_and_period(text1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/prompt_model.py", line 83, in extract_final_sum_and_period
+    output = llm(
+             ^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1674, in __call__
+    return self.create_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1607, in create_completion
+    completion: Completion = next(completion_or_chunks)  # type: ignore
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/administrator/projects/OCR-project/venv/lib/python3.12/site-packages/llama_cpp/llama.py", line 1085, in _create_completion
+    raise ValueError(
+ValueError: Requested tokens (10705) exceed context window of 8192
+
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
+Loaded detection model vikp/surya_det3 on device cuda with dtype torch.float16
+Loaded recognition model vikp/surya_rec on device cuda with dtype torch.bfloat16
